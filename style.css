@@ -1,0 +1,41 @@
+.inner {
+  padding: 30px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  max-width: 500px;
+  width: 100%;
+}
+.output {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.wrapper {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.date {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.title {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.task.done {
+  opacity: 0.5;
+}
+.task.done .task__text {
+  text-decoration: line-through;
+}
